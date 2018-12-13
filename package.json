@@ -9,7 +9,11 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-jss": "latest"
+    "react-jss": "latest",
+    "react-redux": "^6.0.0",
+    "react-redux-firebase": "^2.2.4",
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.6.0"
   },
   "scripts": {
     "dev": "next",
