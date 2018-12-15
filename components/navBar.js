@@ -26,10 +26,6 @@ const styles = {
 };
 
 class NavBar extends React.Component {
-  state = {
-    anchorEl: null
-  };
-
   /**
    * Renders auth buttons depending on user's auth state.
    * When the user isn't signed in show login and sign up buttons.
@@ -50,7 +46,7 @@ class NavBar extends React.Component {
   };
 
   render() {
-    // Styles are passed as the 'classes' prop when we export using 'withStyles'
+    // Styles are passed as props.classes when we export using 'withStyles'
     const { classes } = this.props;
 
     return (
